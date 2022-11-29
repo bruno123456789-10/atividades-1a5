@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade javascript 1</title>
+
+    <style>
+
+        h1, p{
+            font-family: 'calibri';
+        }
+
+
+        p{
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Atividades de cadastro de dados de um professor.</h1>
+    <p>nome: <span id="nome"></span></p>
+    <p>endereço: <span id="endereco"></span></p>
+    <p>cidade: <span id="cidade"></span></p>
+    <p>uf: <span id="uf"></span></p>
+    <p>cep: <span id="cep"></span></p>
+    <p>telefone: <span id="telefone"></span></p>
+    <p>cpf: <span id="cpf"></span></p>
+    <p>rg: <span id="rg"></span></p>
+    <p>data de nascimento: <span id="data_de_nascimento"></span></p>
+    <p>grau de escolaridade: <span id="grau_de_escolaridade"></span></p>
+    <p>curso que leciona: <span id="curso_que_leciona"></span></p>
+
+
+
+    <script>
+
+    let nome = prompt("digite o nome do professor.");
+    let endereco = prompt("digite o endereço do professor.");
+    let cidade = prompt("digite a cidade do professor.");
+    let uf = prompt("digite a uf do professor.");
+    let cep = prompt("digite o cep do professor."); 
+    let telefone = prompt("digite o telefone do professor.");
+    let cpf = prompt("digite o cpf do professor.");
+    let rg = prompt("digite rg do professor.");
+    let data_de_nascimento = prompt("digite a data de nascimento do professor.");
+    let grau_de_escolaridade = prompt("digite o grau de ecolaridade do professor.");
+    let curso_que_leciona = prompt("digite o curso que o professor leciona.");
+
+
+    document.getElementById("nome").innerHTML=nome
+    document.getElementById("endereco").innerHTML=endereco
+    document.getElementById("cidade").innerHTML=cidade
+    document.getElementById("uf").innerHTML=uf
+    document.getElementById("cep").innerHTML=cep
+    document.getElementById("telefone").innerHTML=telefone
+    document.getElementById("cpf").innerHTML=cpf
+    document.getElementById("rg").innerHTML=rg
+    document.getElementById("data_de_nascimento").innerHTML=data_de_nascimento
+    document.getElementById("grau_de_escolaridade").innerHTML=grau_de_escolaridade
+    document.getElementById("curso_que_leciona").innerHTML=curso_que_leciona
+
+    </script>
+</body>
+</html>

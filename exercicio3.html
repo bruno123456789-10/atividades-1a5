@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 3</title>
+
+    <style>
+
+        h1, p{
+            font-family: 'calibri';
+        }
+
+
+        p{
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Notas e frequencia de um aluno.</h1>
+    <p>Matematica: <span id="mat"></span></p>
+    <p>Portugues: <span id="port"></span></p>
+    <p>Informatica: <span id="inf"></span></p>
+    <p>Frequência: <span id="frequencia"></span></p>
+
+
+    <script>
+        let mat = prompt("nota matematica: ")
+        let port = prompt("nota portugues: ")
+        let inf = prompt("nota informatica: ")
+        let frequencia = prompt("frequencia do aluno:")
+
+        document.getElementById("mat").innerHTML = mat
+        document.getElementById("port").innerHTML = port
+        document.getElementById("inf").innerHTML = inf
+        document.getElementById("frequencia").innerHTML = frequencia
+    </script>
+</body>
+</html>
